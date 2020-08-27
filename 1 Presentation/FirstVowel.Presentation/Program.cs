@@ -9,6 +9,9 @@ namespace FirstVowel.Presentation
 {
     public class Program : Base
     {
+        static readonly string ERROR_MESSAGE = 
+            "Não foi possível encontrar o primeiro caracter vogal da stream que não se repete após a primeira consoante!";
+
         public static void Main()
         {
             RegisterServices();
@@ -18,17 +21,17 @@ namespace FirstVowel.Presentation
             Console.Write("Input: ");
             stream.Input = Console.ReadLine();
 
-            var result = FindFirstVowel(stream);
+            var result = FirstChar(stream);
 
             if (result != default)
                 Console.WriteLine("Output: " + result);
             else
-                Console.WriteLine("Não foi possível encontrar o primeiro caracter vogal da stream que não se repete após a primeira consoante!");
+                Console.WriteLine(ERROR_MESSAGE);
 
             Dispose();
         }
 
-        private static char FindFirstVowel(IStream stream)
+        private static char FirstChar(IStream stream)
         {
             var found1 = new List<char>();
 

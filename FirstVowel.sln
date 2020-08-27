@@ -5,15 +5,19 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Presentation", "1 Presentation", "{CA901C82-0DA9-487B-8E2A-A023502A1EBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstVowel.Presentation", "1 Presentation\FirstVowel.Presentation\FirstVowel.Presentation.csproj", "{BC681AF1-77DC-4CCC-90C5-0659520BCEA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstVowel.Presentation", "1 Presentation\FirstVowel.Presentation\FirstVowel.Presentation.csproj", "{BC681AF1-77DC-4CCC-90C5-0659520BCEA9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Domain", "2 Domain", "{E1773F5B-7292-4022-BEE5-FD6085BAEF1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstVowel.Domain", "2 Domain\FirstVowel.Domain\FirstVowel.Domain.csproj", "{800656D5-E372-4B83-9D94-FDAF51E65B2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstVowel.Domain", "2 Domain\FirstVowel.Domain\FirstVowel.Domain.csproj", "{800656D5-E372-4B83-9D94-FDAF51E65B2A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Common", "3 Common", "{541919DB-FF3C-4275-84D1-5D8832A5D4B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstVowel.Common", "3 Common\FirstVowel.Common\FirstVowel.Common.csproj", "{5AE1E1CF-5219-40FA-B1B5-5E739F462F79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstVowel.Common", "3 Common\FirstVowel.Common\FirstVowel.Common.csproj", "{5AE1E1CF-5219-40FA-B1B5-5E739F462F79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 Test", "4 Test", "{85B45C73-58A0-4BDB-81CB-2F976144BF5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstVowel.Test", "4 Test\FirstVowel.Test\FirstVowel.Test.csproj", "{F86BD8E6-7F0A-4128-AD57-EAB22D1121E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,10 @@ Global
 		{5AE1E1CF-5219-40FA-B1B5-5E739F462F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AE1E1CF-5219-40FA-B1B5-5E739F462F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AE1E1CF-5219-40FA-B1B5-5E739F462F79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F86BD8E6-7F0A-4128-AD57-EAB22D1121E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F86BD8E6-7F0A-4128-AD57-EAB22D1121E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F86BD8E6-7F0A-4128-AD57-EAB22D1121E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F86BD8E6-7F0A-4128-AD57-EAB22D1121E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +49,7 @@ Global
 		{BC681AF1-77DC-4CCC-90C5-0659520BCEA9} = {CA901C82-0DA9-487B-8E2A-A023502A1EBA}
 		{800656D5-E372-4B83-9D94-FDAF51E65B2A} = {E1773F5B-7292-4022-BEE5-FD6085BAEF1D}
 		{5AE1E1CF-5219-40FA-B1B5-5E739F462F79} = {541919DB-FF3C-4275-84D1-5D8832A5D4B3}
+		{F86BD8E6-7F0A-4128-AD57-EAB22D1121E8} = {85B45C73-58A0-4BDB-81CB-2F976144BF5B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D6137371-25BD-4B7B-BA58-68D65F65E303}
